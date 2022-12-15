@@ -1,14 +1,14 @@
 {
-  "name": "@airbnb/node-memwatch",
+  "name": "node-memorywatcher",
   "description": "Keep an eye on your memory usage, and discover and isolate leaks.",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "author": "Lloyd Hilaiel (http://lloyd.io)",
   "engines": {
     "node": ">= 10.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/node-memwatch.git"
+    "url": "git+https://github.com/airbnb/node-memwatch.git"
   },
   "main": "include.js",
   "licenses": [
@@ -38,5 +38,11 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/airbnb/node-memwatch#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "license": "ISC"
 }
